@@ -1,0 +1,74 @@
+{
+  "total_time": 17794.300773620605,
+  "training_time": 14449.882391929626,
+  "test_evaluation_time": 873.8063883781433,
+  "test_mean_simulation_time": 4.369031941890716,
+  "test_ood_evaluation_time": 2171.647696495056,
+  "test_ood_mean_simulation_time": 4.378321968740033,
+  "fc_metrics_test": {
+    "test": {
+      "ML": {
+        "MSE_normalized": {
+          "x-velocity": 0.6204593705463779,
+          "y-velocity": 0.3196993506355576,
+          "pressure": 0.4830372410825869,
+          "turbulent_viscosity": 7.657692249873733
+        },
+        "MSE_normalized_surfacic": {
+          "pressure": 1.926031088630923
+        },
+        "MAPE_normalized": {
+          "x-velocity": 8.302410246676931,
+          "y-velocity": 5.135549443097646,
+          "pressure": 4.259614807745962,
+          "turbulent_viscosity": 17.97506443605973
+        },
+        "MAPE_normalized_surfacic": {
+          "pressure": 3.30100398445875
+        }
+      },
+      "Physics": {
+        "spearman_correlation_drag": 0.03308993747430822,
+        "spearman_correlation_lift": 0.7229455914371862,
+        "mean_relative_drag": 16.36430675340153,
+        "std_relative_drag": 14.280521161164234,
+        "mean_relative_lift": 0.9717314487583262,
+        "std_relative_lift": 1.791483390349509
+      },
+      "IndRed": {}
+    }
+  },
+  "fc_metrics_test_ood": {
+    "test_ood": {
+      "ML": {
+        "MSE_normalized": {
+          "x-velocity": 0.6204593705463779,
+          "y-velocity": 0.3196993506355576,
+          "pressure": 0.4830372410825869,
+          "turbulent_viscosity": 7.657692249873733
+        },
+        "MSE_normalized_surfacic": {
+          "pressure": 1.926031088630923
+        },
+        "MAPE_normalized": {
+          "x-velocity": 8.302410246676931,
+          "y-velocity": 5.135549443097646,
+          "pressure": 4.259614807745962,
+          "turbulent_viscosity": 17.97506443605973
+        },
+        "MAPE_normalized_surfacic": {
+          "pressure": 3.30100398445875
+        }
+      },
+      "Physics": {
+        "spearman_correlation_drag": 0.03308993747430822,
+        "spearman_correlation_lift": 0.7229455914371862,
+        "mean_relative_drag": 16.36430675340153,
+        "std_relative_drag": 14.280521161164234,
+        "mean_relative_lift": 0.9717314487583262,
+        "std_relative_lift": 1.791483390349509
+      },
+      "IndRed": {}
+    }
+  }
+}

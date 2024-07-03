@@ -1,0 +1,20 @@
+{
+  "evaluateonly": false,
+  "scoringonly": false,
+  "simulator_config": {
+    "simulator_type": "custom_torch",
+    "simulator_file": "my_augmented_simulator",
+    "name": "MyAugmentedSimulator",
+    "model": "TorchFullyConnected",
+    "model_type": "fully_connected",
+    "scaler_type": "simple",
+    "scaler_file": "None",
+    "scaler_class": "standard_scaler",
+    "scaler": "StandardScaler",
+    "config_name": "DEFAULT"
+   },
+  "simulator_extra_parameters": {},
+  "training_config": {
+    "epochs": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "evaluateonly": false,
+  "scoringonly": false,
+  "simulator_config": {
+    "simulator_type": "custom",
+    "simulator_file": "my_augmented_simulator",
+    "name": "MyAugmentedSimulator",
+    "model": "AugmentedSimulator",
+    "scaler_type": "None"
+   },
+  "simulator_extra_parameters": {
+    "encoder": [7, 64, 64, 8],
+    "decoder": [8, 64, 64, 4],
+    "nb_hidden_layers": 3,
+    "size_hidden_layers": 64,
+    "batch_size": 1,
+    "nb_epochs": 600,
+    "lr": 0.001,
+    "bn_bool": true,
+    "subsampling": 32000
+  },
+  "training_config": {}
+}
