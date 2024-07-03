@@ -29,9 +29,9 @@ In the following, we describe the content of the jupyter notebooks :
 
 - **5-Scoring**: This notebook shows firstly how the score is computed by describing its different components. Next, it provides a script which can be used locally by the participants to obtain a score for their contributions. We encourage participants to evaluate their solutions via codabench (which uses the same scoring module as the one described in this notebook). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IRT-SystemX/ml4physim_startingkit/blob/main/5_Scoring.ipynb)
 
-- **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/competitions/1534/) and usable parameters. 
+- **6-Submission:** This notebook presents the composition of a submission bundle for [Codabench](https://www.codabench.org/competitions/3282/) and usable parameters. 
 
-- **7-Submission_examples:** This notebook shows how to submit on [Codabench](https://www.codabench.org/competitions/1534/) and examples of submissions bundles.  
+- **7-Submission_examples:** This notebook shows how to submit on [Codabench](https://www.codabench.org/competitions/3282/) and examples of submissions bundles.  
 
 
 
