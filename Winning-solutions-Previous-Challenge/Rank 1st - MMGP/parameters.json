@@ -1,0 +1,13 @@
+{
+  "evaluateonly": false,
+  "scoringonly": false,
+  "simulator_config": {
+    "simulator_type": "custom",
+    "simulator_file": "safran_augmented_simulation",
+    "name": "MyAugmentedSimulator",
+    "model": "AugmentedSimulator",
+    "scaler_type": "None"
+  },
+  "simulator_extra_parameters": {},
+  "training_config": {}
+}
