@@ -1,0 +1,22 @@
+{
+  "evaluateonly": false,
+  "scoringonly": false,
+  "simulator_config": {
+    "simulator_type": "custom",
+    "simulator_file": "my_custom_transformer",
+    "name": "MyAugmentedSimulator",
+    "model": "AugmentedSimulator",
+    "scaler_type": "None"
+   },
+  "simulator_extra_parameters": {
+    "nb_epochs": 300,
+    "lr": 0.003,
+    "subsampling": 100000,
+    "batch_size": 50000,
+    "dataloader_batch_size": 1,
+    "k": 1000,
+    "skeleton_method": "random",
+    "skeleton_n_iter": 10
+  },
+  "training_config": {}
+}
